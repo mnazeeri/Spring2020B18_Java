@@ -1,6 +1,9 @@
 package day29_Wrapper_ArrayList;
 
 import day07_IfStatements.MaxNumber;
+import sun.text.normalizer.UCharacter;
+
+import java.util.Arrays;
 
 public class ValueOfMethods {
     public static void main(String[] args) {
@@ -69,6 +72,13 @@ public class ValueOfMethods {
         byte minNum4 = Byte.MIN_VALUE;
         System.out.println(minNum4);
 
+        System.out.println("__________________________________________________________");
+
+        boolean [] arr = new boolean[3];
+        System.out.println(Arrays.toString(arr));
+
+        Integer [] arr2 = new Integer[3];
+        System.out.println(Arrays.toString(arr2));
 
     }
 }
