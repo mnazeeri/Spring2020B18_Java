@@ -63,5 +63,12 @@ public class ArrayList_Method {
         }
         System.out.println(reversedList3);
 
+        System.out.println("==========================================================");
+
+        System.out.println(list3.size());
+        boolean r4 = list3.isEmpty();
+        System.out.println(r4);
+
+
     }
 }
