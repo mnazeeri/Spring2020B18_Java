@@ -18,6 +18,7 @@ public class PersonalInfo {
 
     static char grade = 'A';
     private static long SSN = 123456;
+
     private static long ID = 98765;
     static int age = 30;
 }

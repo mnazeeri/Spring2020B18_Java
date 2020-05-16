@@ -11,5 +11,17 @@ public class CheckInfo {
         // System.out.println("ID: "+PersonalInfo.ID); //Since it's private ID does not compile
         System.out.println("Age: "+PersonalInfo.age); //Since it's private age does not compile
 
+
+        PersonalInfo obj = new PersonalInfo();
+        System.out.println(obj.name);
+        System.out.println(obj.gender);
+        System.out.println(obj.grade);
+        System.out.println(obj.age);
+
+       // System.out.println(obj.SSN); compile error due to SSN being private
+
     }
+
+
+
 }
