@@ -18,10 +18,12 @@ public class multi_catchBlocks {
             System.out.println("Index out of bond");
 
         }catch (ArithmeticException e){
-            System.out.println("Arithmetic Exception");
+            System.out.println("Arithmetic");
 
         }catch (RuntimeException e){
-            System.out.println("Runtime Exception");
+            System.out.println("Runtime");
+        }catch (Exception e){
+            System.out.println("Exception");
         }
     }
 }
